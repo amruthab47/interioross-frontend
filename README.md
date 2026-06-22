@@ -1,81 +1,83 @@
 # InteriorOS Frontend
 
 <p align="center">
-  <img src="screenshots/readme/homepage.png" width="100%" alt="InteriorOS Landing Page">
+  <img src="screenshots/01homepage.png" width="100%" alt="InteriorOS Landing Page">
 </p>
 
-<h3 align="center">Design. Build. Deliver.</h3>
+<h2 align="center">Design. Build. Deliver.</h2>
 
 <p align="center">
-A modern React-based frontend for InteriorOS, an AI-powered project management platform designed for interior design firms and construction teams.
+A modern React application powering <strong>InteriorOS</strong>, an AI-powered project management platform for interior design firms and construction teams.
 </p>
 
 ---
 
 ## Overview
 
-InteriorOS Frontend is the client application for the InteriorOS platform. Built with React and Vite, it provides an intuitive, responsive, and role-based interface that enables administrators, designers, supervisors, clients, and vendors to manage every stage of an interior design project.
+InteriorOS Frontend is the client application for the InteriorOS platform. Built with **React** and **Vite**, it provides a responsive, role-based interface for managing every stage of an interior design project—from client onboarding and project planning to financial management, design collaboration, and AI-assisted snag detection.
 
-The application brings together project management, financial tracking, AI-assisted snag detection, collaboration, document management, and design workflows into a unified experience.
+The application replaces spreadsheets, messaging apps, and disconnected tools with a single integrated workspace that keeps teams, clients, and vendors connected throughout the project lifecycle.
 
 ---
 
 # Features
 
-### Project Management
+## Project Management
 
-- Project Dashboard
-- Task Management
-- Timeline Tracking
-- Attendance Management
-- Calendar
-- Document Management
-- Site Gallery
+* Project Dashboard
+* Task Management
+* Timeline Tracking
+* Attendance Management
+* Calendar Scheduling
+* Document Management
+* Site Gallery
 
-### AI Assistant
+## Design Studio
 
-- AI-powered construction snag detection
-- Image upload interface
-- AI issue analysis
-- Automatic issue descriptions
-- Severity classification
+* Interactive Floor Planning
+* Room Layout Management
+* Building Organization
+* Material Planning
+* PDF Export
+* Client Sharing
 
-### Financial Management
+## Financial Management
 
-- Revenue Dashboard
-- Expense Tracking
-- Quotations
-- Purchase Orders
-- Invoices
-- Payments
-- Payroll
-- Financial Analytics
+* Revenue Tracking
+* Expense Monitoring
+* Budget vs Actual Analysis
+* Quotations
+* Purchase Orders
+* Invoice Management
+* Payment Tracking
+* Payroll
 
-### Design Studio
+## AI Assistant
 
-- Interactive floor planning
-- Room management
-- Building layouts
-- Material planning
-- PDF export
-- Client-ready design workflow
+* AI-powered Construction Snag Detection
+* Image Upload & Analysis
+* Automatic Issue Classification
+* AI-generated Descriptions
+* Severity Assessment
 
-### Collaboration
+## Collaboration
 
-- Real-time messaging
-- Client collaboration
-- Vendor management
-- Notifications
+* Real-time Messaging
+* Client Collaboration
+* Vendor Management
+* Notifications
 
-### Multi-Role Experience
+## Multi-Role Access
 
-Dedicated interfaces for:
+Dedicated dashboards for:
 
-- Administrator
-- Designer
-- Supervisor
-- Client
-- Vendor
+* Administrator
+* Designer
+* Supervisor
+* Client
+* Vendor
+
+Each role has a customized interface designed around its workflow and responsibilities.
 
 ---
 
@@ -84,109 +86,98 @@ Dedicated interfaces for:
 ## Landing Page
 
 <p align="center">
-<img src="screenshots/readme/homepage.png" width="100%">
+<img src="screenshots/01homepage.png" width="100%">
 </p>
 
-The landing page introduces InteriorOS with a modern SaaS-inspired design, highlighting the platform's vision of simplifying project management for interior design firms.
+A modern landing page introducing InteriorOS with a premium SaaS-inspired design, showcasing the platform's vision of simplifying project management for interior design firms.
 
 ---
 
-## Login
+## Secure Login
 
 <p align="center">
-<img src="screenshots/readme/login.png" width="85%">
+<img src="screenshots/01login.png" width="85%">
 </p>
 
-Secure authentication with role-based access for different users of the platform.
+Role-based authentication provides secure access to personalized dashboards for administrators, designers, supervisors, clients, and vendors.
 
 ---
 
 ## Administrator Dashboard
 
 <p align="center">
-<img src="screenshots/readme/dashboard.png" width="100%">
+<img src="screenshots/01admindash.png" width="100%">
 </p>
 
-The administrator dashboard provides an overview of:
+The administrator dashboard provides a real-time overview of business operations, including:
 
-- Active projects
-- Revenue & expenses
-- Team attendance
-- Pending invoices
-- Business analytics
-- Performance metrics
+* Active Projects
+* Revenue & Expenses
+* Attendance Overview
+* Pending Invoices
+* Revenue Analytics
+* Business Performance Metrics
 
 ---
 
 ## Design Studio
 
 <p align="center">
-<img src="screenshots/readme/design-studio.png" width="100%">
+<img src="screenshots/01designstudio.png" width="100%">
 </p>
 
-The interactive Design Studio enables designers to organize floor plans and collaborate throughout the design process.
+The Design Studio allows designers to organize floor plans and collaborate throughout the design process.
 
-Features include:
+Key capabilities include:
 
-- Floor planning
-- Room organization
-- Building layouts
-- Material planning
-- PDF export
-- Client sharing
+* Interactive Floor Planning
+* Room Organization
+* Building Layout Management
+* Material Planning
+* Project Organization
+* PDF Export
+* Client Sharing
 
 ---
 
 ## Finance Dashboard
 
 <p align="center">
-<img src="screenshots/readme/finance.png" width="100%">
+<img src="screenshots/01finance.png" width="100%">
 </p>
 
-A comprehensive finance module that helps manage:
+The Finance module centralizes project finances through an intuitive analytics dashboard.
 
-- Revenue
-- Expenses
-- Budget vs Actual
-- Payroll
-- Invoices
-- Quotations
-- Payments
+Features include:
+
+* Revenue Overview
+* Expense Tracking
+* Budget vs Actual Analysis
+* Category-wise Spending
+* Payroll Management
+* Invoice Tracking
+* Quotations
+* Payment Management
 
 ---
 
-# Technology Stack
+# Tech Stack
 
-## Framework
+### Frontend
 
-- React 19
-- Vite
+* React
+* Vite
+* Tailwind CSS
+* React Router
+* Axios
+* Socket.IO Client
+* Recharts
 
-## Styling
+### Development Tools
 
-- Tailwind CSS
-- CSS Modules
-
-## Routing
-
-- React Router DOM
-
-## API Communication
-
-- Axios
-
-## Real-Time Communication
-
-- Socket.IO Client
-
-## Data Visualization
-
-- Recharts
-
-## Build Tools
-
-- ESLint
-- PostCSS
+* ESLint
+* PostCSS
+* npm
 
 ---
 
@@ -213,13 +204,13 @@ screenshots/
 
 # Getting Started
 
-## Clone the repository
+## Clone the Repository
 
 ```bash
-git clone https://github.com/amruthab47/interioross.git
+git clone https://github.com/amruthab47/interioross-frontend.git
 ```
 
-## Install dependencies
+## Install Dependencies
 
 ```bash
 npm install
@@ -233,11 +224,11 @@ Create a `.env` file in the project root.
 VITE_API_URL=http://localhost:5000
 ```
 
-Update the API URL if your backend is hosted elsewhere.
+Update the API URL if your backend is running on a different host.
 
 ---
 
-## Run the development server
+## Run the Development Server
 
 ```bash
 npm run dev
@@ -245,7 +236,7 @@ npm run dev
 
 The application will be available at:
 
-```
+```text
 http://localhost:5173
 ```
 
@@ -255,28 +246,38 @@ http://localhost:5173
 
 The frontend communicates with a separate Node.js backend.
 
-Backend Repository:
+**Backend Repository**
 
-**https://github.com/amruthab47/interioross-backend**
+https://github.com/amruthab47/interioross-backend
 
-Please set up and run the backend before starting the frontend.
+Please clone and run the backend before starting the frontend application.
 
 ---
 
 # Highlights
 
-- Modern responsive UI
-- AI-assisted snag detection workflow
-- Interactive Design Studio
-- Multi-role dashboards
-- Financial analytics
-- Real-time messaging
-- Role-based navigation
-- Clean and scalable React architecture
-- REST API integration
-- Responsive layouts for desktop and tablet
+* Modern responsive interface
+* Interactive Design Studio
+* AI-powered snag detection workflow
+* Multi-role dashboards
+* Financial analytics
+* Real-time messaging
+* REST API integration
+* Responsive layouts
+* Clean and scalable React architecture
 
+---
 
+# Future Enhancements
+
+* Mobile application
+* Real-time collaborative floor planning
+* AI-powered design recommendations
+* Offline support
+* Progressive Web App (PWA)
+* Advanced reporting & analytics
+
+---
 
 # License
 
