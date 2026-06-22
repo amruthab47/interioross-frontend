@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+/* Class-based dark mode: add .dark to <html> to activate dark: variants */
+@variant dark (&:where(.dark, .dark *));
+
+@keyframes coilWave {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-2.5px); }
+}
+
+@keyframes fadeSlide {
+  from { opacity: 0; transform: translateY(5px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideInRight {
+  from { transform: translateX(100%); opacity: 0; }
+  to   { transform: translateX(0);    opacity: 1; }
+}
+
+@theme {
+  --color-navy:       #0F2340;
+  --color-primary:    #1B4F8A;
+  --color-mid-blue:   #2E6DA4;
+  --color-light-blue: #D6E8F7;
+  --color-accent:     #E07B20;
+  --color-body:       #333333;
+  --color-muted:      #777777;
+
+  --font-sans: "DM Sans", sans-serif;
+  --font-sora: "Sora", sans-serif;
+}

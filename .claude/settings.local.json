@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "PowerShell(Stop-Process -Name \"node\" -Force -ErrorAction SilentlyContinue; Start-Sleep -Seconds 1; Set-Location \"C:\\\\Users\\\\91994\\\\interioross-backend\"; Start-Process -NoNewWindow -FilePath \"node\" -ArgumentList \"src/index.js\" -RedirectStandardOutput \"server.log\" -RedirectStandardError \"server_err.log\"; Start-Sleep -Seconds 3; \\(Invoke-WebRequest -Uri \"http://localhost:4000/api/health\" -UseBasicParsing\\).Content)",
+      "Bash(Get-ChildItem -Path \"c:\\\\Users\\\\91994\\\\interioross\\\\src\" -Recurse)",
+      "Bash(Select-Object -First 50)"
+    ]
+  }
+}
