@@ -1,135 +1,183 @@
-# InteriorOSS — Frontend
+# InteriorOSS
+
+<p align="center">
+  <h3 align="center">AI-Powered Interior Design & Construction Management Platform</h3>
+</p>
+
+<p align="center">
+InteriorOSS is a modern full-stack platform built to simplify project management, client collaboration, financial tracking, workforce coordination, and AI-assisted construction quality inspections for interior design and construction teams.
+</p>
+
+---
 
 ## Overview
 
-InteriorOSS is a modern, AI-powered construction and interior project management platform designed to streamline collaboration between administrators, supervisors, designers, clients, and vendors.
+InteriorOSS brings every stage of an interior construction project into a single platform.
 
-The application combines project management, communication, financial tracking, AI-assisted snag detection, document management, and design collaboration into a single web platform.
-
-This repository contains the React + Vite frontend application.
+The application enables administrators, designers, supervisors, clients, and vendors to collaborate efficiently through dedicated dashboards, intelligent automation, document management, communication tools, and AI-powered snag detection.
 
 ---
 
-## Features
+## Application Preview
 
-### Multi-Role Dashboard
+| Landing Page                            | Administrator Dashboard                        |
+| --------------------------------------- | ---------------------------------------------- |
+| <img src="screenshots/01_homepage.png"> | <img src="screenshots/04_admin_dashboard.png"> |
 
-* Administrator Dashboard
-* Supervisor Dashboard
-* Designer Dashboard
-* Client Dashboard
+| Designer Workspace                             | Client Dashboard                                |
+| ---------------------------------------------- | ----------------------------------------------- |
+| <img src="screenshots/22_designer_studio.png"> | <img src="screenshots/32_client_dashboard.png"> |
 
-Each role has dedicated pages, permissions, and workflows tailored to their responsibilities.
+| AI Snag Detection                                 | Finance Dashboard                            |
+| ------------------------------------------------- | -------------------------------------------- |
+| <img src="screenshots/snag_ai_05_analyzed_1.png"> | <img src="screenshots/08_admin_finance.png"> |
+
+| Team Communication                        | Project Timeline                               |
+| ----------------------------------------- | ---------------------------------------------- |
+| <img src="screenshots/11_admin_chat.png"> | <img src="screenshots/35_client_timeline.png"> |
 
 ---
 
-### Project Management
+# Key Features
 
-* Create and manage projects
-* Project timelines
-* Task tracking
+## AI-Powered Snag Detection
+
+InteriorOSS includes an intelligent snag detection system capable of assisting quality inspections by analyzing uploaded construction site images.
+
+The AI workflow includes:
+
+* Image upload
+* Automated defect detection
+* Snag categorization
+* Severity estimation
+* Auto-generated descriptions
+* Inspection report assistance
+
+---
+
+## Project Management
+
+The platform supports complete project lifecycle management.
+
+Features include:
+
+* Project creation
+* Task assignment
 * Progress monitoring
-* Team assignment
+* Attendance management
+* Calendar scheduling
+* Timeline tracking
+* Reports
+* Documentation
 
 ---
 
-### AI Snag Detection
+## Multi-Role Access
 
-* Upload construction site photographs
-* AI-assisted defect analysis
-* Automatic snag categorization
-* Suggested issue descriptions
-* Streamlined snag reporting workflow
+Dedicated experiences for:
 
----
+* Administrator
+* Supervisor
+* Designer
+* Client
+* Vendor
 
-### Design Collaboration
-
-* Client feedback
-* Design approvals
-* Collaborative review
-* Material selection
-* Marketplace integration
+Each role has a customized dashboard and permissions designed around its workflow.
 
 ---
 
-### Financial Management
+## Design Collaboration
 
-* Budget overview
-* Project finance tracking
+Design teams can:
+
+* Share concepts
+* Collaborate with clients
+* Manage materials
+* Review products
+* Track project milestones
+* Organize project documents
+
+---
+
+## Financial Management
+
+Built-in financial tools include:
+
+* Budget tracking
 * Payroll management
 * Purchase orders
 * Vendor quotations
+* Expense monitoring
 
 ---
 
-### Communication
+## Communication
 
-* Real-time chat
+InteriorOSS supports collaboration through:
+
+* Team chat
+* Client messaging
 * Notifications
-* Team collaboration
-* Client communication
+* Real-time project communication
 
 ---
 
-### Additional Modules
+# Technology Stack
 
-* Calendar
-* Attendance
-* Reports
-* Documents
-* Vendor Management
-* Client Management
-* Analytics
-
----
-
-## Tech Stack
+### Frontend
 
 * React
 * Vite
 * JavaScript
 * Tailwind CSS
 * Socket.IO Client
-* REST APIs
+
+### Backend
+
+* Node.js
+* Express.js
+* MongoDB
+* Socket.IO
+* JWT Authentication
+* Cloudinary
+* Razorpay
+* Groq AI
 
 ---
 
-## Project Structure
+# Project Structure
 
-```
+```text
 src/
- ├── api/
- ├── assets/
- ├── components/
- ├── context/
- ├── hooks/
- ├── pages/
- ├── socket/
- ├── styles/
- └── utils/
+├── api/
+├── assets/
+├── components/
+├── context/
+├── hooks/
+├── pages/
+├── socket/
+├── styles/
+└── utils/
 ```
 
 ---
 
-## Getting Started
+# Installation
 
-### Clone
+Clone the repository.
 
 ```bash
 git clone https://github.com/amruthab47/interioross.git
 cd interioross
 ```
 
-### Install
+Install dependencies.
 
 ```bash
 npm install
 ```
 
-### Configure Environment
-
-Create a `.env` file in the project root.
+Create a `.env` file.
 
 Example:
 
@@ -138,15 +186,13 @@ VITE_API_URL=http://localhost:5000
 VITE_GROQ_API_KEY=your_api_key
 ```
 
-> Replace the values with your own configuration.
-
-### Start Development Server
+Run the development server.
 
 ```bash
 npm run dev
 ```
 
-### Build for Production
+Create a production build.
 
 ```bash
 npm run build
@@ -154,32 +200,44 @@ npm run build
 
 ---
 
-## Backend
+# Backend Repository
 
-The backend for this project is available here:
+The backend source code is available here:
 
 **https://github.com/amruthab47/interioross-backend**
 
 ---
 
-## Screenshots
+# Additional Screens
 
-The repository includes screenshots demonstrating:
+The repository includes complete interface previews for:
 
-* Landing page
 * Authentication
 * Admin Dashboard
-* Designer Workspace
-* Client Portal
-* AI Snag Detection
-* Finance
-* Chat
+* Supervisor Dashboard
+* Designer Dashboard
+* Client Dashboard
+* AI Snag Detection Workflow
 * Reports
 * Calendar
-* Project Management
+* Attendance
+* Marketplace
+* Documents
+* Vendor Management
+* Finance
+* Collaboration
+* Timeline
 
 ---
 
-## Disclaimer
+# Purpose
 
-This project was developed as a full-stack demonstration of modern project management software for the interior design and construction industry.
+InteriorOSS demonstrates how AI and modern web technologies can improve collaboration, project visibility, and quality assurance within the interior design and construction industry.
+
+The project focuses on scalability, role-based access, intelligent automation, and an intuitive user experience.
+
+---
+
+# License
+
+This project was created for educational, portfolio, and demonstration purposes.
